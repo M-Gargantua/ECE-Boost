@@ -1,0 +1,473 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BoostLib
+LIBS:TempBoost-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D D1
+U 1 1 5C9E3CC5
+P 2650 1050
+F 0 "D1" H 2650 1150 50  0000 C CNN
+F 1 "D" H 2650 950 50  0000 C CNN
+F 2 "" H 2650 1050 50  0001 C CNN
+F 3 "" H 2650 1050 50  0001 C CNN
+	1    2650 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L D D2
+U 1 1 5C9E3D85
+P 2650 1550
+F 0 "D2" H 2650 1650 50  0000 C CNN
+F 1 "D" H 2650 1450 50  0000 C CNN
+F 2 "" H 2650 1550 50  0001 C CNN
+F 3 "" H 2650 1550 50  0001 C CNN
+	1    2650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L D D3
+U 1 1 5C9E3DAF
+P 3050 1050
+F 0 "D3" H 3050 1150 50  0000 C CNN
+F 1 "D" H 3050 950 50  0000 C CNN
+F 2 "" H 3050 1050 50  0001 C CNN
+F 3 "" H 3050 1050 50  0001 C CNN
+	1    3050 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L D D4
+U 1 1 5C9E3DEC
+P 3050 1550
+F 0 "D4" H 3050 1650 50  0000 C CNN
+F 1 "D" H 3050 1450 50  0000 C CNN
+F 2 "" H 3050 1550 50  0001 C CNN
+F 3 "" H 3050 1550 50  0001 C CNN
+	1    3050 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Transformer_1P_1S T1
+U 1 1 5C9E3E1A
+P 1550 1250
+F 0 "T1" H 1550 1500 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 1550 950 50  0000 C CNN
+F 2 "" H 1550 1250 50  0001 C CNN
+F 3 "" H 1550 1250 50  0001 C CNN
+	1    1550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 900  3050 900 
+Wire Wire Line
+	2650 1700 3050 1700
+Wire Wire Line
+	2650 1200 2650 1400
+Wire Wire Line
+	3050 1200 3050 1400
+Wire Wire Line
+	3050 1250 2400 1250
+Wire Wire Line
+	2400 1250 2400 1050
+Wire Wire Line
+	2400 1050 1950 1050
+Connection ~ 3050 1250
+Wire Wire Line
+	1950 1450 2400 1450
+Wire Wire Line
+	2400 1450 2400 1350
+Wire Wire Line
+	2400 1350 2650 1350
+Connection ~ 2650 1350
+$Comp
+L Fuse F1
+U 1 1 5C9E3EB9
+P 1000 1050
+F 0 "F1" V 1080 1050 50  0000 C CNN
+F 1 "Fuse" V 925 1050 50  0000 C CNN
+F 2 "" V 930 1050 50  0001 C CNN
+F 3 "" H 1000 1050 50  0001 C CNN
+	1    1000 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J1
+U 1 1 5C9E3F24
+P 650 1150
+F 0 "J1" H 650 1250 50  0000 C CNN
+F 1 "Conn_01x02" H 650 950 50  0000 C CNN
+F 2 "" H 650 1150 50  0001 C CNN
+F 3 "" H 650 1150 50  0001 C CNN
+	1    650  1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	850  1150 850  1450
+Wire Wire Line
+	850  1450 1150 1450
+$Comp
+L Conn_01x02 J2
+U 1 1 5C9E4017
+P 1450 4700
+F 0 "J2" H 1450 4800 50  0000 C CNN
+F 1 "Conn_01x02" H 1450 4500 50  0000 C CNN
+F 2 "" H 1450 4700 50  0001 C CNN
+F 3 "" H 1450 4700 50  0001 C CNN
+	1    1450 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L L L1
+U 1 1 5C9E40BF
+P 2150 4300
+F 0 "L1" V 2100 4300 50  0000 C CNN
+F 1 "2.2mH" V 2225 4300 50  0000 C CNN
+F 2 "BoostLib:1140-122K" H 2150 4300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/140_series-776825.pdf" H 2150 4300 50  0001 C CNN
+F 4 "1140-122K-RC" V 2150 4300 60  0001 C CNN "Part Number"
+F 5 "Bourns" V 2150 4300 60  0001 C CNN "Manufactuer"
+	1    2150 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C202
+U 1 1 5C9E4134
+P 3750 4600
+F 0 "C202" H 3775 4700 50  0000 L CNN
+F 1 "100uF" H 3775 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3788 4450 50  0001 C CNN
+F 3 "" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C203
+U 1 1 5C9E4185
+P 4050 4600
+F 0 "C203" H 4075 4700 50  0000 L CNN
+F 1 "10uF" H 4075 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4088 4450 50  0001 C CNN
+F 3 "" H 4050 4600 50  0001 C CNN
+	1    4050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C204
+U 1 1 5C9E41BE
+P 4350 4600
+F 0 "C204" H 4375 4700 50  0000 L CNN
+F 1 "10uF" H 4375 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4388 4450 50  0001 C CNN
+F 3 "" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C206
+U 1 1 5C9E41FA
+P 4950 4600
+F 0 "C206" H 4975 4700 50  0000 L CNN
+F 1 "1uF" H 4975 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4988 4450 50  0001 C CNN
+F 3 "" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C201
+U 1 1 5C9E424F
+P 3450 4600
+F 0 "C201" H 3475 4700 50  0000 L CNN
+F 1 "100uF" H 3475 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3488 4450 50  0001 C CNN
+F 3 "" H 3450 4600 50  0001 C CNN
+F 4 "1" H 3450 4600 60  0001 C CNN "Part Number"
+	1    3450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C205
+U 1 1 5C9E42AB
+P 4650 4600
+F 0 "C205" H 4675 4700 50  0000 L CNN
+F 1 "1uF" H 4675 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4688 4450 50  0001 C CNN
+F 3 "" H 4650 4600 50  0001 C CNN
+	1    4650 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4300 4950 4450
+Wire Wire Line
+	2900 4300 4950 4300
+Wire Wire Line
+	3450 4450 3450 4300
+Connection ~ 3450 4300
+Wire Wire Line
+	3750 4450 3750 4300
+Connection ~ 3750 4300
+Wire Wire Line
+	4050 4450 4050 4300
+Connection ~ 4050 4300
+Wire Wire Line
+	4350 4450 4350 4300
+Connection ~ 4350 4300
+Wire Wire Line
+	4650 4450 4650 4300
+Connection ~ 4650 4300
+Wire Wire Line
+	4950 4950 4950 4750
+Wire Wire Line
+	1650 4950 4950 4950
+Wire Wire Line
+	3450 4950 3450 4750
+Wire Wire Line
+	3750 4750 3750 4950
+Connection ~ 3750 4950
+Wire Wire Line
+	4050 4750 4050 4950
+Connection ~ 4050 4950
+Wire Wire Line
+	4350 4750 4350 4950
+Connection ~ 4350 4950
+Wire Wire Line
+	4650 4750 4650 4950
+Connection ~ 4650 4950
+$Comp
+L R R201
+U 1 1 5C9E4C79
+P 6150 4150
+F 0 "R201" V 6230 4150 50  0000 C CNN
+F 1 "118K" V 6150 4150 50  0000 C CNN
+F 2 "" V 6080 4150 50  0001 C CNN
+F 3 "" H 6150 4150 50  0001 C CNN
+	1    6150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R202
+U 1 1 5C9E4CF8
+P 6400 4150
+F 0 "R202" V 6480 4150 50  0000 C CNN
+F 1 "13.7k" V 6400 4150 50  0000 C CNN
+F 2 "" V 6330 4150 50  0001 C CNN
+F 3 "" H 6400 4150 50  0001 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 5C9E4DA5
+P 6400 4600
+F 0 "R204" V 6480 4600 50  0000 C CNN
+F 1 "2M" V 6400 4600 50  0000 C CNN
+F 2 "" V 6330 4600 50  0001 C CNN
+F 3 "" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R203
+U 1 1 5C9E4E43
+P 6150 4600
+F 0 "R203" V 6230 4600 50  0000 C CNN
+F 1 "453k" V 6150 4600 50  0000 C CNN
+F 2 "" V 6080 4600 50  0001 C CNN
+F 3 "" H 6150 4600 50  0001 C CNN
+	1    6150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C207
+U 1 1 5C9E4F59
+P 6250 5400
+F 0 "C207" H 6275 5500 50  0000 L CNN
+F 1 "2.2nF" H 6275 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6288 5250 50  0001 C CNN
+F 3 "" H 6250 5400 50  0001 C CNN
+	1    6250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C208
+U 1 1 5C9E5034
+P 6750 5400
+F 0 "C208" H 6775 5500 50  0000 L CNN
+F 1 "4.7nF" H 6775 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6788 5250 50  0001 C CNN
+F 3 "" H 6750 5400 50  0001 C CNN
+	1    6750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C209
+U 1 1 5C9E51AA
+P 5750 5450
+F 0 "C209" H 5775 5550 50  0000 L CNN
+F 1 "2.2nF" H 5775 5350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5788 5300 50  0001 C CNN
+F 3 "" H 5750 5450 50  0001 C CNN
+	1    5750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D202
+U 1 1 5CA4FB5D
+P 2750 4300
+F 0 "D202" H 2750 4400 50  0000 C CNN
+F 1 "D" H 2750 4200 50  0001 C CNN
+F 2 "BoostLib:RFN10BM3SFHTL" H 2750 4300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/rfn10bm3sfh-1265856.pdf" H 2750 4300 50  0001 C CNN
+F 4 "RFN10BM3SFHTL" H 2750 4300 60  0001 C CNN "Part Number"
+F 5 "Rohm" H 2750 4300 60  0001 C CNN "Manufactuer"
+	1    2750 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 4300 2600 4300
+$Comp
+L Q_NMOS_GSD Q201
+U 1 1 5CA50205
+P 2350 4750
+F 0 "Q201" H 2550 4800 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2550 4700 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2550 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/sq2348es-461115.pdf" H 2350 4750 50  0001 C CNN
+F 4 "Vishay" H 2350 4750 60  0001 C CNN "Manufactuer"
+F 5 "SQ2348ES-T1_GE3" H 2350 4750 60  0001 C CNN "Part Number"
+	1    2350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4550 2450 4300
+Connection ~ 2450 4300
+Connection ~ 3450 4950
+Wire Wire Line
+	1650 4700 1650 6400
+Connection ~ 2450 4950
+Wire Wire Line
+	2000 4300 1650 4300
+Wire Wire Line
+	1650 4300 1650 4600
+Text Notes 3550 3950 0    60   ~ 0
+Why 6 Capacitors?\n-> 220uF is the design total capacitance for this design.\nCapacitor ESR is a function of freqency, with smaller values\nand smaller packages having lower ESR at higher frequency.\nBy having a ground plane 'cage' with bypass capacitors\nspread over a larger range, generally by decade, you can provide a\nlow ESR path for low frequency transient response and high\nfrequency switching and coupled noise.
+$Comp
+L C C212
+U 1 1 5CA50F7C
+P 3700 6250
+F 0 "C212" H 3725 6350 50  0000 L CNN
+F 1 "10uF" H 3725 6150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3738 6100 50  0001 C CNN
+F 3 "" H 3700 6250 50  0001 C CNN
+	1    3700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C211
+U 1 1 5CA51030
+P 3300 6250
+F 0 "C211" H 3325 6350 50  0000 L CNN
+F 1 "100pF" H 3325 6150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3338 6100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3300 6250 50  0001 C CNN
+F 4 "C0603C101K3RACTU" H 3300 6250 60  0001 C CNN "Part Number"
+F 5 "KEMET" H 3300 6250 60  0001 C CNN "Manufactuer"
+	1    3300 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6100 3700 6100
+Connection ~ 3300 6100
+Wire Wire Line
+	1650 4600 1950 4600
+Wire Wire Line
+	1950 4600 1950 6100
+Wire Wire Line
+	1650 6400 3700 6400
+Connection ~ 1650 4950
+Connection ~ 2850 6400
+Connection ~ 3300 6400
+$Comp
+L GND #PWR?
+U 1 1 5CA515BA
+P 1650 6400
+F 0 "#PWR?" H 1650 6150 50  0001 C CNN
+F 1 "GND" H 1650 6250 50  0000 C CNN
+F 2 "" H 1650 6400 50  0001 C CNN
+F 3 "" H 1650 6400 50  0001 C CNN
+	1    1650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C210
+U 1 1 5CA519E7
+P 2400 6250
+F 0 "C210" H 2425 6350 50  0000 L CNN
+F 1 "1uF" H 2425 6150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2438 6100 50  0001 C CNN
+F 3 "" H 2400 6250 50  0001 C CNN
+	1    2400 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6100 2550 6100
+Connection ~ 2400 6100
+$Comp
+L MIC2920 U201
+U 1 1 5CA5255B
+P 2850 6100
+F 0 "U201" H 2700 6225 50  0000 C CNN
+F 1 "MIC2920" H 2850 6225 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 2850 6100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/mic2920-779101.pdf" H 2850 6100 50  0001 C CNN
+F 4 "MIC2920A-12WS-TR" H 2850 6100 60  0001 C CNN "Part Number"
+F 5 "Microchip" H 2850 6100 60  0001 C CNN "Manufactuer"
+	1    2850 6100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
