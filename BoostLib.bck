@@ -24,6 +24,12 @@ K linear regulator ldo fixed positive
 F http://www.ti.com/lit/ds/symlink/lm1117.pdf
 $ENDCMP
 #
+$CMP MIC2920
+D 800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
 $CMP TLV1117-15
 D 800mA Low-Dropout Linear Regulator, 1.5V fixed output, TO-220/TO-252/TO-263/SOT-223
 K linear regulator ldo fixed positive
