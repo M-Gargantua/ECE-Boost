@@ -1,4 +1,4 @@
-update=4/3/2019 3:49:46 PM
+update=4/3/2019 6:20:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=BoostLib
+LibName34=OPAx140

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA140
+D High-Precision, Low-Noise, RRO, 11-MHz, JFET Operational Amplifier
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+#End Doc Library
