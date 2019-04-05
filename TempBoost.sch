@@ -51,97 +51,97 @@ $EndDescr
 $Comp
 L L L1
 U 1 1 5C9E40BF
-P 2116 3800
-F 0 "L1" V 2066 3800 50  0000 C CNN
-F 1 "2.2mH" V 2191 3800 50  0000 C CNN
-F 2 "BoostLib:1140-122K" H 2116 3800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/140_series-776825.pdf" H 2116 3800 50  0001 C CNN
-F 4 "1140-122K-RC" V 2116 3800 60  0001 C CNN "Part Number"
-F 5 "Bourns" V 2116 3800 60  0001 C CNN "Manufactuer"
-	1    2116 3800
+P 1516 3850
+F 0 "L1" V 1466 3850 50  0000 C CNN
+F 1 "2.2mH" V 1591 3850 50  0000 C CNN
+F 2 "BoostLib:1140-122K" H 1516 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/140_series-776825.pdf" H 1516 3850 50  0001 C CNN
+F 4 "1140-122K-RC" V 1516 3850 60  0001 C CNN "Part Number"
+F 5 "Bourns" V 1516 3850 60  0001 C CNN "Manufactuer"
+	1    1516 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CP C202
 U 1 1 5C9E4134
-P 3401 4049
-F 0 "C202" H 3426 4149 50  0000 L CNN
-F 1 "100uF" H 3426 3949 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3439 3899 50  0001 C CNN
-F 3 "" H 3401 4049 50  0001 C CNN
-	1    3401 4049
+P 2801 4099
+F 0 "C202" H 2826 4199 50  0000 L CNN
+F 1 "100uF" H 2826 3999 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2839 3949 50  0001 C CNN
+F 3 "" H 2801 4099 50  0001 C CNN
+	1    2801 4099
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C203
 U 1 1 5C9E4185
-P 3701 4049
-F 0 "C203" H 3726 4149 50  0000 L CNN
-F 1 "10uF" H 3726 3949 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3739 3899 50  0001 C CNN
-F 3 "" H 3701 4049 50  0001 C CNN
-	1    3701 4049
+P 3101 4099
+F 0 "C203" H 3126 4199 50  0000 L CNN
+F 1 "10uF" H 3126 3999 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3139 3949 50  0001 C CNN
+F 3 "" H 3101 4099 50  0001 C CNN
+	1    3101 4099
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C204
 U 1 1 5C9E41BE
-P 4001 4049
-F 0 "C204" H 4026 4149 50  0000 L CNN
-F 1 "10uF" H 4026 3949 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4039 3899 50  0001 C CNN
-F 3 "" H 4001 4049 50  0001 C CNN
-	1    4001 4049
+P 3401 4099
+F 0 "C204" H 3426 4199 50  0000 L CNN
+F 1 "10uF" H 3426 3999 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3439 3949 50  0001 C CNN
+F 3 "" H 3401 4099 50  0001 C CNN
+	1    3401 4099
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C206
 U 1 1 5C9E41FA
-P 4601 4049
-F 0 "C206" H 4626 4149 50  0000 L CNN
-F 1 "1uF" H 4626 3949 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4639 3899 50  0001 C CNN
-F 3 "" H 4601 4049 50  0001 C CNN
-	1    4601 4049
+P 4001 4099
+F 0 "C206" H 4026 4199 50  0000 L CNN
+F 1 "1uF" H 4026 3999 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4039 3949 50  0001 C CNN
+F 3 "" H 4001 4099 50  0001 C CNN
+	1    4001 4099
 	1    0    0    -1  
 $EndComp
 $Comp
 L CP C201
 U 1 1 5C9E424F
-P 3101 4049
-F 0 "C201" H 3126 4149 50  0000 L CNN
-F 1 "100uF" H 3126 3949 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3139 3899 50  0001 C CNN
-F 3 "" H 3101 4049 50  0001 C CNN
-F 4 "1" H 3101 4049 60  0001 C CNN "Part Number"
-	1    3101 4049
+P 2501 4099
+F 0 "C201" H 2526 4199 50  0000 L CNN
+F 1 "100uF" H 2526 3999 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2539 3949 50  0001 C CNN
+F 3 "" H 2501 4099 50  0001 C CNN
+F 4 "1" H 2501 4099 60  0001 C CNN "Part Number"
+	1    2501 4099
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C205
 U 1 1 5C9E42AB
-P 4301 4049
-F 0 "C205" H 4326 4149 50  0000 L CNN
-F 1 "1uF" H 4326 3949 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4339 3899 50  0001 C CNN
-F 3 "" H 4301 4049 50  0001 C CNN
-	1    4301 4049
+P 3701 4099
+F 0 "C205" H 3726 4199 50  0000 L CNN
+F 1 "1uF" H 3726 3999 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3739 3949 50  0001 C CNN
+F 3 "" H 3701 4099 50  0001 C CNN
+	1    3701 4099
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D201
 U 1 1 5CA4FB5D
-P 2749 3800
-F 0 "D201" H 2749 3900 50  0000 C CNN
-F 1 "D" H 2749 3700 50  0001 C CNN
-F 2 "BoostLib:RFN10BM3SFHTL" H 2749 3800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/rfn10bm3sfh-1265856.pdf" H 2749 3800 50  0001 C CNN
-F 4 "RFN10BM3SFHTL" H 2749 3800 60  0001 C CNN "Part Number"
-F 5 "Rohm" H 2749 3800 60  0001 C CNN "Manufactuer"
-	1    2749 3800
+P 2149 3850
+F 0 "D201" H 2149 3950 50  0000 C CNN
+F 1 "D" H 2149 3750 50  0001 C CNN
+F 2 "BoostLib:RFN10BM3SFHTL" H 2149 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/rfn10bm3sfh-1265856.pdf" H 2149 3850 50  0001 C CNN
+F 4 "RFN10BM3SFHTL" H 2149 3850 60  0001 C CNN "Part Number"
+F 5 "Rohm" H 2149 3850 60  0001 C CNN "Manufactuer"
+	1    2149 3850
 	-1   0    0    1   
 $EndComp
-Text Notes 1450 3500 0    60   ~ 0
+Text Notes 850  3550 0    60   ~ 0
 Why 6 Capacitors?\n-> 220uF is the design total capacitance for this design.\nCapacitor ESR is a function of freqency, with smaller values\nand smaller packages having lower ESR at higher frequency.\nBy having a ground plane 'cage' with bypass capacitors\nspread over a larger range, generally by decade, you can provide a\nlow ESR path for low frequency transient response and high\nfrequency switching and coupled noise.
 $Comp
 L C C212
@@ -204,21 +204,21 @@ F 3 "" H 9005 2385 50  0001 C CNN
 	1    9005 2385
 	1    0    0    -1  
 $EndComp
-Text GLabel 1707 3801 0    39   Input ~ 0
+Text GLabel 1107 3851 0    39   Input ~ 0
 VRECT+
-Text GLabel 1717 4451 0    39   Input ~ 0
+Text GLabel 1117 4501 0    39   Input ~ 0
 VRECT-
 $Comp
 L Q_NMOS_GSD Q201
 U 1 1 5CA50205
-P 2267 4101
-F 0 "Q201" H 2467 4151 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 2467 4051 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 2467 4201 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/sq2348es-461115.pdf" H 2267 4101 50  0001 C CNN
-F 4 "Vishay" H 2267 4101 60  0001 C CNN "Manufactuer"
-F 5 "SQ2348ES-T1_GE3" H 2267 4101 60  0001 C CNN "Part Number"
-	1    2267 4101
+P 1667 4151
+F 0 "Q201" H 1867 4201 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 1867 4101 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1867 4251 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/sq2348es-461115.pdf" H 1667 4151 50  0001 C CNN
+F 4 "Vishay" H 1667 4151 60  0001 C CNN "Manufactuer"
+F 5 "SQ2348ES-T1_GE3" H 1667 4151 60  0001 C CNN "Part Number"
+	1    1667 4151
 	1    0    0    -1  
 $EndComp
 Text GLabel 2120 6100 0    39   Input ~ 0
@@ -226,15 +226,19 @@ VRECT+
 Text GLabel 2125 6495 0    39   Input ~ 0
 VRECT-
 Wire Wire Line
-	3150 6100 3700 6100
+	3150 6100 3300 6100
+Wire Wire Line
+	3300 6100 3700 6100
 Connection ~ 3300 6100
 Connection ~ 2400 6100
 Wire Wire Line
-	1707 3801 1967 3801
+	1107 3851 1367 3851
 Wire Wire Line
-	2120 6100 2550 6100
+	2120 6100 2400 6100
+Wire Wire Line
+	2400 6100 2550 6100
 Connection ~ 3700 6100
-Text GLabel 6400 3800 2    39   Input ~ 0
+Text GLabel 5800 3850 2    39   Input ~ 0
 LOAD+
 Text Notes 2535 5715 0    39   ~ 0
 Amplifier Bias Supply
@@ -331,20 +335,32 @@ Wire Wire Line
 Wire Wire Line
 	8385 1475 8245 1475
 Wire Wire Line
-	8245 2035 8245 1195
+	8245 2035 8245 1475
+Wire Wire Line
+	8245 1475 8245 1195
 Wire Wire Line
 	8245 1195 8665 1195
 Wire Wire Line
 	8865 1195 9590 1195
 Wire Wire Line
-	9590 1195 9590 2135
+	9590 1195 9590 1475
+Wire Wire Line
+	9590 1475 9590 2135
 Wire Wire Line
 	9590 1475 9180 1475
 Wire Wire Line
-	7175 2035 8555 2035
+	7175 2035 7450 2035
+Wire Wire Line
+	7450 2035 7705 2035
+Wire Wire Line
+	7705 2035 8245 2035
+Wire Wire Line
+	8245 2035 8555 2035
 Connection ~ 8245 1475
 Wire Wire Line
-	9505 2135 9750 2135
+	9505 2135 9590 2135
+Wire Wire Line
+	9590 2135 9750 2135
 Connection ~ 9590 1475
 Text GLabel 9750 2135 2    39   Input ~ 0
 VFB
@@ -378,7 +394,9 @@ Wire Wire Line
 Connection ~ 7705 2035
 Connection ~ 7450 2035
 Wire Wire Line
-	6575 2035 6975 2035
+	6575 2035 6710 2035
+Wire Wire Line
+	6710 2035 6975 2035
 Wire Wire Line
 	6710 2035 6710 2195
 Wire Wire Line
@@ -402,7 +420,9 @@ Gate
 Wire Wire Line
 	6100 7250 6100 6950
 Wire Wire Line
-	4800 7250 6100 7250
+	4800 7250 4950 7250
+Wire Wire Line
+	4950 7250 6100 7250
 Wire Wire Line
 	4950 7250 4950 6850
 Wire Wire Line
@@ -429,11 +449,17 @@ $EndComp
 Wire Wire Line
 	2400 6445 2400 6495
 Wire Wire Line
-	3300 6095 3300 6135
+	3300 6095 3300 6100
+Wire Wire Line
+	3300 6100 3300 6135
 Wire Wire Line
 	2400 6145 2400 6100
 Wire Wire Line
-	2125 6495 3700 6495
+	2125 6495 2400 6495
+Wire Wire Line
+	2400 6495 3300 6495
+Wire Wire Line
+	3300 6495 3700 6495
 Connection ~ 2400 6495
 Connection ~ 3300 6495
 Wire Wire Line
@@ -441,7 +467,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 6495 3300 6435
 Wire Wire Line
-	3700 6070 3700 6135
+	3700 6070 3700 6100
+Wire Wire Line
+	3700 6100 3700 6135
 $Comp
 L +12V #PWR05
 U 1 1 5CA58E64
@@ -453,23 +481,10 @@ F 3 "" H 3700 6070 50  0001 C CNN
 	1    3700 6070
 	1    0    0    -1  
 $EndComp
-Text GLabel 1996 4101 0    39   Input ~ 0
+Text GLabel 1396 4151 0    39   Input ~ 0
 Gate
-Text GLabel 9350 3200 2    39   Input ~ 0
+Text GLabel 9350 3300 2    39   Input ~ 0
 VREF
-$Comp
-L AD1582 U204
-U 1 1 5CA59227
-P 8050 3300
-F 0 "U204" H 8050 3050 60  0000 C CNN
-F 1 "AD1582" H 8050 3600 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8050 3300 60  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/609/AD1582_1583_1584_1585-876960.pdf" H 8050 3300 60  0001 C CNN
-F 4 "Analog Devices" H 8050 3300 60  0001 C CNN "Manufactuer"
-F 5 "AD1582WBRTZ-R7" H 8050 3300 60  0001 C CNN "Part Number"
-	1    8050 3300
-	-1   0    0    -1  
-$EndComp
 $Comp
 L +12V #PWR06
 U 1 1 5CA5937C
@@ -497,12 +512,12 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 5CA59CB9
-P 8100 3700
-F 0 "#PWR07" H 8100 3450 50  0001 C CNN
-F 1 "GND" H 8100 3550 50  0000 C CNN
-F 2 "" H 8100 3700 50  0001 C CNN
-F 3 "" H 8100 3700 50  0001 C CNN
-	1    8100 3700
+P 8050 3700
+F 0 "#PWR07" H 8050 3450 50  0001 C CNN
+F 1 "GND" H 8050 3550 50  0000 C CNN
+F 2 "" H 8050 3700 50  0001 C CNN
+F 3 "" H 8050 3700 50  0001 C CNN
+	1    8050 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -550,19 +565,33 @@ F 3 "" H 7400 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 3200 9350 3200
-Connection ~ 8750 3200
-Connection ~ 9100 3200
+	8500 3300 8750 3300
 Wire Wire Line
-	6950 3700 9100 3700
+	8750 3300 9100 3300
 Wire Wire Line
-	8500 3700 8500 3400
+	9100 3300 9350 3300
+Connection ~ 8750 3300
+Connection ~ 9100 3300
+Wire Wire Line
+	6950 3700 8050 3700
+Wire Wire Line
+	8050 3700 8500 3700
+Wire Wire Line
+	8500 3700 8750 3700
+Wire Wire Line
+	8750 3700 9100 3700
+Wire Wire Line
+	8500 3300 8500 3300
+Wire Wire Line
+	8500 3300 8500 3700
 Connection ~ 8750 3700
 Wire Wire Line
-	6950 3300 7600 3300
+	6950 3300 7400 3300
+Wire Wire Line
+	7400 3300 7700 3300
 Connection ~ 7400 3300
 Connection ~ 8500 3700
-Connection ~ 8100 3700
+Connection ~ 8050 3700
 Text Notes 5300 6300 0    39   ~ 0
 Gate Drier
 $Comp
@@ -641,11 +670,11 @@ VREF
 Wire Wire Line
 	6950 3400 6950 3300
 Wire Wire Line
-	7400 3400 7400 3300
+	7400 3300 7400 3400
 Wire Wire Line
-	9100 3400 9100 3200
+	9100 3400 9100 3300
 Wire Wire Line
-	8750 3400 8750 3200
+	8750 3400 8750 3300
 $Comp
 L OPA2140 U202
 U 1 1 5CA5ECE2
@@ -699,7 +728,9 @@ VPWM
 Text GLabel 9750 5450 0    39   Input ~ 0
 VFB
 Wire Wire Line
-	9250 5750 9750 5750
+	9250 5750 9300 5750
+Wire Wire Line
+	9300 5750 9750 5750
 Text Label 9400 5750 0    39   ~ 0
 VTRI
 $Comp
@@ -744,7 +775,9 @@ $EndComp
 Wire Wire Line
 	6800 5300 6800 5150
 Wire Wire Line
-	6650 5150 7750 5150
+	6650 5150 6800 5150
+Wire Wire Line
+	6800 5150 7750 5150
 Wire Wire Line
 	7750 5150 7750 5850
 Connection ~ 6800 5150
@@ -762,7 +795,9 @@ $EndComp
 Wire Wire Line
 	7750 5850 7900 5850
 Wire Wire Line
-	8200 4850 8200 5850
+	8200 4850 8200 5150
+Wire Wire Line
+	8200 5150 8200 5850
 Wire Wire Line
 	8200 5850 8650 5850
 Wire Wire Line
@@ -803,7 +838,9 @@ F 3 "" H 8900 5150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	9300 4850 9300 5750
+	9300 4850 9300 5150
+Wire Wire Line
+	9300 5150 9300 5750
 Wire Wire Line
 	9300 5150 9050 5150
 Connection ~ 9300 5750
@@ -858,120 +895,154 @@ Triangle Wave Generator
 $Comp
 L TPS1H100 U206
 U 1 1 5CA67357
-P 5650 3700
-F 0 "U206" H 5700 3200 60  0000 C CNN
-F 1 "TPS1H100" H 5650 4150 60  0000 C CNN
-F 2 "" H 5700 3750 60  0001 C CNN
-F 3 "" H 5700 3750 60  0001 C CNN
-	1    5650 3700
+P 5050 3750
+F 0 "U206" H 5100 3250 60  0000 C CNN
+F 1 "TPS1H100" H 5050 4200 60  0000 C CNN
+F 2 "" H 5100 3800 60  0001 C CNN
+F 3 "" H 5100 3800 60  0001 C CNN
+	1    5050 3750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 3800 6400 3800
+	5550 3850 5650 3850
 Wire Wire Line
-	6150 3900 6250 3900
+	5650 3850 5800 3850
 Wire Wire Line
-	6250 3800 6250 4000
-Connection ~ 6250 3800
+	5550 3950 5650 3950
 Wire Wire Line
-	6250 4000 6150 4000
-Connection ~ 6250 3900
+	5650 3850 5650 3950
 Wire Wire Line
-	5000 4000 5100 4000
+	5650 3950 5650 4050
+Connection ~ 5650 3850
 Wire Wire Line
-	5000 3800 5000 4000
+	5650 4050 5550 4050
+Connection ~ 5650 3950
 Wire Wire Line
-	2900 3800 5100 3800
+	4400 4050 4500 4050
 Wire Wire Line
-	5100 3900 5000 3900
-Connection ~ 5000 3900
-Connection ~ 5000 3800
-Connection ~ 2899 3801
+	4400 3850 4400 3950
 Wire Wire Line
-	4600 3900 4600 3800
-Connection ~ 4600 3800
+	4400 3950 4400 4050
 Wire Wire Line
-	4300 3900 4300 3800
-Connection ~ 4300 3800
+	2300 3850 2500 3850
 Wire Wire Line
-	4000 3900 4000 3800
-Connection ~ 4000 3800
+	2500 3850 2800 3850
 Wire Wire Line
-	3700 3900 3700 3800
-Connection ~ 3700 3800
+	2800 3850 3100 3850
 Wire Wire Line
-	3400 3900 3400 3800
-Connection ~ 3400 3800
+	3100 3850 3400 3850
 Wire Wire Line
-	3100 3900 3100 3800
-Connection ~ 3100 3800
-Connection ~ 4600 3900
-Connection ~ 4300 3900
-Connection ~ 4000 3900
-Connection ~ 3700 3900
-Connection ~ 3400 3900
-Connection ~ 3100 3900
+	3400 3850 3700 3850
 Wire Wire Line
-	3100 4200 3100 4450
+	3700 3850 4000 3850
 Wire Wire Line
-	1800 4450 4600 4450
+	4000 3850 4400 3850
 Wire Wire Line
-	3400 4450 3400 4200
-Connection ~ 3100 4450
+	4400 3850 4500 3850
 Wire Wire Line
-	3700 4450 3700 4200
-Connection ~ 3400 4450
+	4500 3950 4400 3950
+Connection ~ 4400 3950
+Connection ~ 4400 3850
+Connection ~ 2299 3851
 Wire Wire Line
-	4000 4450 4000 4200
-Connection ~ 3700 4450
+	4000 3950 4000 3850
+Connection ~ 4000 3850
 Wire Wire Line
-	4300 4450 4300 4200
-Connection ~ 4000 4450
+	3700 3950 3700 3850
+Connection ~ 3700 3850
 Wire Wire Line
-	4600 4450 4600 4200
-Connection ~ 4300 4450
-Connection ~ 3100 4200
-Connection ~ 3400 4200
-Connection ~ 3700 4200
-Connection ~ 4000 4200
-Connection ~ 4300 4200
-Connection ~ 4600 4200
+	3400 3950 3400 3850
+Connection ~ 3400 3850
 Wire Wire Line
-	1967 3801 1968 3800
+	3100 3950 3100 3850
+Connection ~ 3100 3850
 Wire Wire Line
-	1968 3800 1966 3800
+	2800 3950 2800 3850
+Connection ~ 2800 3850
 Wire Wire Line
-	2600 3800 2600 3799
+	2500 3950 2500 3850
+Connection ~ 2500 3850
+Connection ~ 4000 3950
+Connection ~ 3700 3950
+Connection ~ 3400 3950
+Connection ~ 3100 3950
+Connection ~ 2800 3950
+Connection ~ 2500 3950
 Wire Wire Line
-	2267 3800 2600 3800
-Connection ~ 2600 3801
-Connection ~ 2266 3799
+	2500 4250 2500 4500
 Wire Wire Line
-	2368 3900 2368 3799
+	1200 4500 2500 4500
 Wire Wire Line
-	2368 3799 2367 3799
+	2500 4500 2800 4500
 Wire Wire Line
-	2367 3799 2367 3800
-Connection ~ 2367 3800
-Connection ~ 2367 3903
+	2800 4500 3100 4500
 Wire Wire Line
-	1995 4101 2067 4101
+	3100 4500 3400 4500
 Wire Wire Line
-	1995 4101 1995 4100
+	3400 4500 3700 4500
 Wire Wire Line
-	1995 4100 1996 4100
-Connection ~ 1996 4101
+	3700 4500 4000 4500
 Wire Wire Line
-	2367 4302 2367 4449
-Connection ~ 2367 4301
-Connection ~ 2368 4448
+	2800 4500 2800 4250
+Connection ~ 2500 4500
 Wire Wire Line
-	1717 4451 1800 4451
+	3100 4500 3100 4250
+Connection ~ 2800 4500
 Wire Wire Line
-	1800 4451 1800 4450
-NoConn ~ 6150 3700
-NoConn ~ 6150 3400
-NoConn ~ 5100 3700
+	3400 4500 3400 4250
+Connection ~ 3100 4500
+Wire Wire Line
+	3700 4500 3700 4250
+Connection ~ 3400 4500
+Wire Wire Line
+	4000 4500 4000 4250
+Connection ~ 3700 4500
+Connection ~ 2500 4250
+Connection ~ 2800 4250
+Connection ~ 3100 4250
+Connection ~ 3400 4250
+Connection ~ 3700 4250
+Connection ~ 4000 4250
+Wire Wire Line
+	1367 3851 1368 3850
+Wire Wire Line
+	1368 3850 1366 3850
+Wire Wire Line
+	2000 3850 2000 3849
+Wire Wire Line
+	1667 3850 1767 3850
+Wire Wire Line
+	1767 3850 2000 3850
+Connection ~ 2000 3851
+Connection ~ 1666 3849
+Wire Wire Line
+	1768 3950 1768 3849
+Wire Wire Line
+	1768 3849 1767 3849
+Wire Wire Line
+	1767 3849 1767 3850
+Connection ~ 1767 3850
+Connection ~ 1767 3953
+Wire Wire Line
+	1395 4151 1396 4151
+Wire Wire Line
+	1396 4151 1467 4151
+Wire Wire Line
+	1395 4151 1395 4150
+Wire Wire Line
+	1395 4150 1396 4150
+Connection ~ 1396 4151
+Wire Wire Line
+	1767 4352 1767 4499
+Connection ~ 1767 4351
+Connection ~ 1768 4498
+Wire Wire Line
+	1117 4501 1200 4501
+Wire Wire Line
+	1200 4501 1200 4500
+NoConn ~ 5550 3750
+NoConn ~ 5550 3450
+NoConn ~ 4500 3750
 $Comp
 L POT RV2
 U 1 1 5CA8B051
@@ -1028,13 +1099,17 @@ Wire Wire Line
 Wire Wire Line
 	2050 1100 2100 1100
 Wire Wire Line
-	2400 1100 2600 1100
+	2400 1100 2500 1100
+Wire Wire Line
+	2500 1100 2600 1100
 Wire Wire Line
 	1400 1200 1650 1200
 Wire Wire Line
 	1650 1200 1650 1500
 Wire Wire Line
-	1650 1500 2600 1500
+	1650 1500 2450 1500
+Wire Wire Line
+	2450 1500 2600 1500
 $Comp
 L CP C101
 U 1 1 5CA8D65A
@@ -1082,19 +1157,19 @@ $EndComp
 Wire Wire Line
 	6200 1100 6200 1150
 Wire Wire Line
-	5750 1150 5750 1100
+	5750 1100 5750 1150
 Connection ~ 5750 1100
 Wire Wire Line
-	5300 1150 5300 1100
+	5300 1100 5300 1150
 Connection ~ 5300 1100
 Wire Wire Line
 	4900 1150 4900 1100
 Connection ~ 4900 1100
 $Comp
-L DF005S2 U?
+L DF005S2 U101
 U 1 1 5CA8E109
 P 3950 1300
-F 0 "U?" H 3950 1650 60  0000 C CNN
+F 0 "U101" H 3950 1650 60  0000 C CNN
 F 1 "DF005S2" H 3950 950 60  0000 C CNN
 F 2 "" H 3950 1300 60  0001 C CNN
 F 3 "" H 3950 1300 60  0001 C CNN
@@ -1102,12 +1177,20 @@ F 3 "" H 3950 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 1100 6200 1100
+	4350 1100 4900 1100
+Wire Wire Line
+	4900 1100 5300 1100
+Wire Wire Line
+	5300 1100 5750 1100
+Wire Wire Line
+	5750 1100 6200 1100
+Wire Wire Line
+	6200 1100 6650 1100
 $Comp
-L 3FD-224 T?
+L 3FD-224 T101
 U 1 1 5CA8EA43
 P 3000 1350
-F 0 "T?" H 3000 1800 60  0000 C CNN
+F 0 "T101" H 3000 1800 60  0000 C CNN
 F 1 "3FD-224" H 3000 1050 60  0000 C CNN
 F 2 "" H 3000 1350 60  0001 C CNN
 F 3 "" H 3000 1350 60  0001 C CNN
@@ -1142,4 +1225,49 @@ Wire Wire Line
 	3400 1450 3400 1500
 Wire Wire Line
 	3400 1500 3550 1500
+Wire Wire Line
+	4350 1500 4900 1500
+Wire Wire Line
+	4900 1500 5300 1500
+Wire Wire Line
+	5300 1500 5750 1500
+Wire Wire Line
+	5750 1500 6200 1500
+Wire Wire Line
+	6200 1500 6650 1500
+Wire Wire Line
+	4900 1500 4900 1450
+Wire Wire Line
+	5300 1500 5300 1450
+Connection ~ 4900 1500
+Wire Wire Line
+	5750 1500 5750 1450
+Connection ~ 5300 1500
+Wire Wire Line
+	6200 1500 6200 1450
+Connection ~ 5750 1500
+Text GLabel 6650 1100 2    39   Input ~ 0
+VRECT+
+Connection ~ 6200 1100
+Text GLabel 6650 1500 2    39   Input ~ 0
+VRECT-
+Connection ~ 6200 1500
+Connection ~ 8500 3300
+Wire Wire Line
+	8050 3550 8050 3700
+$Comp
+L 2925 U204
+U 1 1 5CA59227
+P 8050 3350
+F 0 "U204" H 8050 3550 60  0000 C CNN
+F 1 "2925" H 8050 3650 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8050 3350 60  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fref2912" H 8050 3350 60  0001 C CNN
+F 4 "Texas Instruments" H 8050 3350 60  0001 C CNN "Manufactuer"
+F 5 "REF2925AIDBZR" H 8050 3350 60  0001 C CNN "Part Number"
+	1    8050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3300 8500 3300
 $EndSCHEMATC
