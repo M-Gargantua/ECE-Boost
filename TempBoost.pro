@@ -1,4 +1,4 @@
-update=4/3/2019 6:20:52 PM
+update=4/4/2019 12:31:53 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=contrib
 LibName32=valves
 LibName33=BoostLib
 LibName34=OPAx140
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
