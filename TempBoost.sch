@@ -949,7 +949,7 @@ L R R207
 U 1 1 5CAC5096
 P 6500 3200
 F 0 "R207" V 6580 3200 50  0000 C CNN
-F 1 "60k" V 6500 3200 50  0000 C CNN
+F 1 "60.4k" V 6500 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 6430 3200 50  0001 C CNN
 F 3 "" H 6500 3200 50  0001 C CNN
 	1    6500 3200
@@ -1174,7 +1174,7 @@ F 3 "" H 1650 7200 50  0001 C CNN
 	1    1650 7200
 	1    0    0    -1  
 $EndComp
-Text Notes 2100 2050 0    39   ~ 0
+Text Notes 2700 1950 0    39   ~ 0
 Short circuit, overcurrent, undervoltage, reverse voltage Shutdown
 Text Notes 6500 2750 0    39   ~ 0
 Output Overvoltage Trigger
@@ -1189,4 +1189,52 @@ Wire Wire Line
 	8556 2035 8556 2049
 Connection ~ 8651 2049
 Connection ~ 8557 2034
+$Comp
+L R R214
+U 1 1 5CAD9A73
+P 2200 2150
+F 0 "R214" V 2280 2150 50  0000 C CNN
+F 1 "330" V 2200 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2130 2150 50  0001 C CNN
+F 3 "" H 2200 2150 50  0001 C CNN
+	1    2200 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R215
+U 1 1 5CAD9BCF
+P 2200 1950
+F 0 "R215" V 2280 1950 50  0000 C CNN
+F 1 "330" V 2200 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2130 1950 50  0001 C CNN
+F 3 "" H 2200 1950 50  0001 C CNN
+	1    2200 1950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2350 1950 2500 1950
+Wire Wire Line
+	2500 1950 2500 2250
+Wire Wire Line
+	2500 2350 2450 2350
+Wire Wire Line
+	2450 2350 2450 2150
+Wire Wire Line
+	2450 2150 2350 2150
+Wire Wire Line
+	2050 1950 2050 2150
+$Comp
+L GND #PWR?
+U 1 1 5CADB4E5
+P 1900 2050
+F 0 "#PWR?" H 1900 1800 50  0001 C CNN
+F 1 "GND" H 1900 1900 50  0000 C CNN
+F 2 "" H 1900 2050 50  0001 C CNN
+F 3 "" H 1900 2050 50  0001 C CNN
+	1    1900 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2050 2050 2050
+Connection ~ 2050 2050
 $EndSCHEMATC
