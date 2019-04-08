@@ -1,3 +1,8 @@
 (fp_lib_table
   (lib (name BoostLib)(type KiCad)(uri "$(KIPRJMOD)/BoostLib.pretty")(options "")(descr ""))
+  (lib (name 1140-122K-RC)(type KiCad)(uri "$(KIPRJMOD)/1140-122K-RC.pretty")(options "")(descr ""))
+  (lib (name 3296W-1-502RLF)(type KiCad)(uri "$(KIPRJMOD)/3296W-1-502RLF.pretty")(options "")(descr ""))
+  (lib (name ED1202DS)(type KiCad)(uri "$(KIPRJMOD)/ED1202DS.pretty")(options "")(descr ""))
+  (lib (name 400MSP1R6BLKM6QE)(type KiCad)(uri "$(KIPRJMOD)/400MSP1R6BLKM6QE.pretty")(options "")(descr ""))
+  (lib (name 3FD-224)(type KiCad)(uri "$(KIPRJMOD)/3FD-224.pretty")(options "")(descr ""))
 )
