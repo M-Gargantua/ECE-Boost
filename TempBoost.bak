@@ -111,8 +111,6 @@ F 3 "" H 8850 2450 50  0001 C CNN
 $EndComp
 Text GLabel 870  5400 0    39   Input ~ 0
 VRECT+
-Text GLabel 875  5795 0    39   Input ~ 0
-VRECT-
 Text Notes 1285 5015 0    39   ~ 0
 12V Supply
 $Comp
@@ -222,8 +220,6 @@ F 3 "http://www.ti.com/lit/ds/slusbq0c/slusbq0c.pdf" H 4100 5400 60  0001 C CNN
 $EndComp
 Text GLabel 5100 5300 2    39   Input ~ 0
 Gate
-Text GLabel 3250 5800 0    39   Input ~ 0
-VRECT-
 Text GLabel 3250 5500 0    39   Input ~ 0
 VPWM
 $Comp
@@ -1532,4 +1528,28 @@ Text Label 6600 3450 0    39   ~ 0
 OV_Set
 Text Label 3450 6800 0    39   ~ 0
 Ref_in
+$Comp
+L GND #PWR025
+U 1 1 5CAE3F10
+P 3250 5800
+F 0 "#PWR025" H 3250 5550 50  0001 C CNN
+F 1 "GND" H 3250 5650 50  0000 C CNN
+F 2 "" H 3250 5800 50  0001 C CNN
+F 3 "" H 3250 5800 50  0001 C CNN
+	1    3250 5800
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CAE4C64
+P 1150 5900
+F 0 "#PWR?" H 1150 5650 50  0001 C CNN
+F 1 "GND" H 1150 5750 50  0000 C CNN
+F 2 "" H 1150 5900 50  0001 C CNN
+F 3 "" H 1150 5900 50  0001 C CNN
+	1    1150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5900 1150 5800
 $EndSCHEMATC
